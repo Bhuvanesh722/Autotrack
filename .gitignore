@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Database
+server/autotrack.db
+server/autotrack.db-wal
+server/autotrack.db-shm
+
+# Build output
+client/dist/
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,135 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 901 modules transformed.
+node.exe : 
+[31mx[39m Build 
+failed in 2.21s
+At C:\Program Files\no
+dejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : 
+NotSpecified: ([3    
+1mx[39m Build failed 
+    in 2.21s:String) 
+[], R    
+emoteException
+    + 
+FullyQualifiedErrorI  
+  d : 
+NativeCommandError
+ 
+[31merror during 
+build:
+[31msrc/components/La
+yout.jsx (6:29): 
+"HiOutlineWrench" is 
+not exported by "node_
+modules/react-icons/hi
+/index.mjs", imported 
+by "src/components/Lay
+out.jsx".[31m
+file: [36mC:/Users/bh
+uva/.gemini/antigravit
+y/scratch/autotrack/cl
+ient/src/components/La
+yout.jsx:6:29[31m
+[33m
+4: import {
+5:     
+HiOutlineViewGrid, 
+HiOutlineCube, 
+HiOutlineUsers, HiOutl
+ineCurrencyDollar,
+6:     HiOutlineDocume
+ntReport, 
+HiOutlineWrench, 
+HiOutlineLogout, 
+HiOutlineMenu,
+                      
+          ^
+7:     HiOutlineX, 
+HiOutlineChevronDown, 
+HiOutlineDocumentText
+8: } from 
+'react-icons/hi';
+[31m
+    at getRollupError 
+(file:///C:/Users/bhuv
+a/.gemini/antigravity/
+scratch/autotrack/clie
+nt/node_modules/rollup
+/dist/es/shared/parseA
+st.js:402:41)
+    at error (file:///
+C:/Users/bhuva/.gemini
+/antigravity/scratch/a
+utotrack/client/node_m
+odules/rollup/dist/es/
+shared/parseAst.js:398
+:42)
+    at Module.error (f
+ile:///C:/Users/bhuva/
+.gemini/antigravity/sc
+ratch/autotrack/client
+/node_modules/rollup/d
+ist/es/shared/node-ent
+ry.js:17040:16)
+    at 
+Module.traceVariable (
+file:///C:/Users/bhuva
+/.gemini/antigravity/s
+cratch/autotrack/clien
+t/node_modules/rollup/
+dist/es/shared/node-en
+try.js:17452:29)
+    at ModuleScope.fin
+dVariable (file:///C:/
+Users/bhuva/.gemini/an
+tigravity/scratch/auto
+track/client/node_modu
+les/rollup/dist/es/sha
+red/node-entry.js:1507
+0:39)
+    at 
+Identifier.bind (file:
+///C:/Users/bhuva/.gem
+ini/antigravity/scratc
+h/autotrack/client/nod
+e_modules/rollup/dist/
+es/shared/node-entry.j
+s:5447:40)
+    at Property.bind (
+file:///C:/Users/bhuva
+/.gemini/antigravity/s
+cratch/autotrack/clien
+t/node_modules/rollup/
+dist/es/shared/node-en
+try.js:2829:23)
+    at 
+ObjectExpression.bind 
+(file:///C:/Users/bhuv
+a/.gemini/antigravity/
+scratch/autotrack/clie
+nt/node_modules/rollup
+/dist/es/shared/node-e
+ntry.js:2825:28)
+    at 
+ArrayExpression.bind (
+file:///C:/Users/bhuva
+/.gemini/antigravity/s
+cratch/autotrack/clien
+t/node_modules/rollup/
+dist/es/shared/node-en
+try.js:2825:28)
+    at VariableDeclara
+tor.bind (file:///C:/U
+sers/bhuva/.gemini/ant
+igravity/scratch/autot
+rack/client/node_modul
+es/rollup/dist/es/shar
+ed/node-entry.js:2829:
+23)[39m
